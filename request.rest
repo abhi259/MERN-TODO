@@ -1,0 +1,18 @@
+GET http://localhost:5000/todos
+
+###
+
+POST http://localhost:5000/todo/new
+Content-Type: application/json
+
+{
+    "text": "Random Todo"
+}
+
+###
+
+DELETE  http://localhost:5000/todo/delete/6383c34fa3ed930bb3f456a0
+
+###
+
+PUT http://localhost:5000/todo/status/6383c245eb0b874ca68f5426
